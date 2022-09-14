@@ -23,6 +23,8 @@ jobs:
 
   tests:
     runs-on: macOS-12
+    env:
+        DEVELOPER_DIR: /Applications/Xcode_14.0.app/Contents/Developer
     steps:
       - uses: actions/checkout@v3
 
