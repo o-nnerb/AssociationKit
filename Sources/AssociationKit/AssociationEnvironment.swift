@@ -31,7 +31,7 @@ private extension AssociationEnvironment {
         .init(storage)
     }
 
-    func edit(_ edit: (inout AssociationValues) -> Void) -> Void {
+    func edit(_ edit: (inout AssociationValues) -> Void) {
         var values = self.values
         edit(&values)
     }

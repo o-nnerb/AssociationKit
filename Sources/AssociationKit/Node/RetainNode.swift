@@ -1,6 +1,6 @@
 //
 //  RetainNode.swift
-//  
+//
 //
 //  Created by onnerb on 14/09/22.
 //
@@ -10,7 +10,7 @@ import Foundation
 class RetainNode {
 
     let key: AnyHashable
-    
+
     private var object: Any
     private let _next: Node?
 

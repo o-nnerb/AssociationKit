@@ -1,6 +1,6 @@
 //
 //  IDTests.swift
-//  
+//
 //
 //  Created by onnerb on 14/09/22.
 //
@@ -23,10 +23,10 @@ class IDTests: XCTestCase {
     }
 
     func testMultipleReadingAndWrite() {
-        for i in 0 ..< 100 {
+        for index in 0 ..< 100 {
             let id = UUID()
             object.id = id
-            XCTAssertEqual(object.id, id, "\(i): - \(object.id) != \(id)")
+            XCTAssertEqual(object.id, id, "\(index): - \(object.id) != \(id)")
         }
     }
 }

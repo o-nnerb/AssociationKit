@@ -1,6 +1,6 @@
 //
 //  AssignNode.swift
-//  
+//
 //
 //  Created by onnerb on 14/09/22.
 //
@@ -10,7 +10,7 @@ import Foundation
 class AssignNode {
 
     let key: AnyHashable
-    
+
     private let _next: Node?
     private weak var object: AnyObject?
 
